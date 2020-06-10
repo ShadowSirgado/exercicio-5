@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Rockstar Games</title>
+  <meta name="description" content="HTML tutorial">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Gonçalo Sirgado">
+  <meta http-equiv="refresh" content="30">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/exer2.css">
+  </head>
+
+
+	
+	
+	<body>
+		<header>
+		
+		<a id="menu_icon">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+     </svg>
+    </a>
+
+    <div id="drawer">
+    <nav>
+    <a href="#founding">Founding Members</a>
+	<a href="#news"> News</a>
+	<a href="#games"> Games</a>
+	<a href="#platforms"> platforms</a>
+    </nav>
+    </div>
+		
+			<h1>Rockstar</h1>
+				<p> Enjoy the virtual world of our Games like Grand theft auto and Red Dead Redemption.</p>
+			<hr/>
+			<h4>Design de Interação</h4>
+		</header>
+
+
+	  <nav id="tabletPC" class="col-3">
+	
+		<a href="#founding">Founding Members</a>
+		<br />
+		<a href="#news"> News</a>
+		<br />
+		<a href="#games"> Games</a>
+		<br />
+		<a href="#platforms"> platforms</a>
+	</nav>
+
+
+ <div id="container" class="col-9">
+    <section class="slideshow-container">
+      <h2>Slideshow</h2>
+
+ <article class="mySlides" class="fade">
+    <figure>
+     <img src="images/arthurmorgan.jpg">
+     <figcaption>Arthur Morgan RDR2</figcaption>
+   </figure>
+ </article>
+
+ <article class="mySlides" class="fade">
+    <figure>
+     <img src="images/GTAProtagonists.jpg">
+     <figcaption>Franklin, Trevor and Michael GTAV </figcaption>
+   </figure>
+ </article>
+
+ <article class="mySlides" class="fade">
+    <figure>
+     <img src="images/aaronstaton.jpg">
+     <figcaption>Aaron Staton LA NOIR.</figcaption>
+   </figure>
+ </article>
+
+   <div class="dotpoints">
+   <span class="dot"></span>
+   <span class="dot"></span>
+   <span class="dot"></span>
+   </div>
+   </section>
+   
+   
+
+  
+    <section>
+      <a name="founding">
+        <h2> Founding Members </h2>
+        <i>Rockstar were founded 21 years ago by :</i>
+      <ul>
+        <li> Sam Houser </li>
+        <li> Dan Houser</li>
+        <li> Terry Donovan</li>
+        <li> Jamie King</li>
+      </ul>
+    </section>
+
+
+    <section>
+      <a name="news">
+        <h2> Rockstar News </h2>
+        <i> Last Game updates and events by the calendar </i>
+        <ol>
+          <li><u> Geralds, Last Play. GTA online updade. April 23. </u></li>
+          <li><u> Gold Bonus in showdown and races. Red Dead Redemption online. May 5. </u></li>
+		  <li><u> Biker Bonus. GTA online. May 7-13.</u></li>
+        </ol>
+      </section>
+
+
+      <section>
+        <a name="games">
+          <h2>Games</h2>
+            <p> Grand Theft Auto  </p>
+            <img src = "https://tecnoblog.net/wp-content/uploads/2018/07/gta-v.jpg" width="800" height="auto">
+                    
+		  
+            <p> Red Dead Redemption II  </p>
+		    <img src = "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fheather%2Fhome%2FEGS_RockstarGames_RedDeadRedemption2_G1A_00-1920x1080-308f101576da37225c889173094f373f2afc56c1.jpg" width="800" height="auto">
+        
+		  
+            <p> La Noire  </p>
+		    <img src = "https://www.g4less.com/images/product/957_15.jpg" width="800" height="auto">
+        
+		</section>
+
+	<section>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UB2onrc_-1o" 
+		  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+
+          <section >
+	
+            <a name="platforms">
+              <table border="1px">
+                <th colspan="3"> One game, lots of ways to play </th>
+                <tr>
+                  <td> Game </td> <td>Mode </td> <td> Players </td>
+                </tr>
+                <tr>
+                  <td rowspan="4">  GTA V</td>
+                    <td rowspan="3"> History </td>
+                      <td> Franklin </td>
+                    </tr>
+                    <tr>
+                      <td> Michael </td>
+                    </tr>
+                    <tr>
+                      <td> Trevor </td>
+                    </tr>
+                    <tr>
+                      <td> GTA Online </td> <td> Your Avatar </td>
+                    </tr>
+                </table>
+				</a>
+            </section>
+
+
+             
+            </div>
+			
+			 <aside class="col-2">
+                <h3>Social Club</h3>
+                <p>Game getting boring? join our community for free in-game presents and command operations, criate a society or join a existing one. Your game, your choice. </p>
+              </aside>
+
+
+        <footer>
+          <h2>Developed by Gonçalo Sirgado</h2>
+        </footer>
+		
+		<script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i = null;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+		
+		let menu_icon= document.querySelector('#menu_icon');
+let container= document.querySelector("#container");
+let drawer= document.querySelector('#drawer');
+menu_icon.addEventListener('click', function(e) {
+drawer.classList.toggle('open');
+e.stopPropagation();
+});
+container.addEventListener('click', function() {
+drawer.classList.remove('open');
+});
+		
+        </script>
+
+  </body>
+    <!---Content ends here--->
+</html>

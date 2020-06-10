@@ -176,10 +176,7 @@ img {
 
 iframe {
   max-width: 100%;
-  width:800px;
-  height: 450px;
-  margin-left:auto;
-  margin-right:auto;
+  height:auto;
 }
 
 .mySlides {
@@ -266,7 +263,7 @@ svg {
   display: block;
   background-color: #CCCCCC;
   height: 100%;
-  width: 57%;
+  width: 60%;
   position: absolute;
   transition: all 0.2s linear;
   transform: translateX(-100%);
@@ -284,7 +281,7 @@ svg {
 
 
 @media only screen and (min-width: 768px) {
-	 #menu_icon {
+ #menu_icon {
   display: none;
   }
 
